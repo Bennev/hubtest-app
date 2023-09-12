@@ -11,5 +11,5 @@ export const StyledLabel = styled.h1`
   margin: 0;
   font-size: 1.6rem;
   font-weight: 500;
-  color: ${props => props.theme.colors.black}
+  color: ${props => props.theme.colors.lightBlack}
 `;

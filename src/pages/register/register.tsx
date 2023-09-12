@@ -28,7 +28,11 @@ const Register = () => {
             <CustomTextField label="Senha" />
             <CustomTextField label="Repetir Senha" />
           </StyledInfo>
-          <StyledButton variant="contained" color="primary">
+          <StyledButton
+            variant="contained"
+            color="primary"
+            onClick={() => navigate('/')}
+          >
             REGISTRAR
           </StyledButton>
           <StyledCreateButton variant="contained" onClick={() => navigate('/')}>

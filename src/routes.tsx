@@ -7,6 +7,8 @@ function Router() {
     <Routes>
       <Route path="/" element={<Pages.Login />} />
       <Route path="/register" element={<Pages.Register />} />
+      <Route path="/home" element={<Pages.Home />} />
+      <Route path="/home/company" element={<Pages.MyCompany />} />
     </Routes>
   )
 }

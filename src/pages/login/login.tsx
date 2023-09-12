@@ -26,7 +26,11 @@ const Login = () => {
             <CustomTextField label="Email" />
             <CustomTextField label="Senha" />
           </StyledInfo>
-          <StyledButton variant="contained" color="primary">
+          <StyledButton
+            variant="contained"
+            color="primary"
+            onClick={() => navigate('/home')}
+          >
             LOGAR
           </StyledButton>
           <StyledCreateButton
